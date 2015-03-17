@@ -42,5 +42,5 @@ git subtree pull --prefix=$local_code_path --squash $name master
 echo "REMINDER"
 echo "-------------"
 echo "per aggiornare da qua il modulo: git subtree pull --prefix=$local_code_path --squash $name master"
-echo "per scrivere upstream  git subtree pull --prefix=$local_code_path --squash $name master"
+echo "per scrivere upstream  git subtree push --prefix=$local_code_path --squash $name master"
 echo "-------------"
